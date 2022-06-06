@@ -1,0 +1,10 @@
+.row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: $gutter-horizontal;
+    row-gap: $gutter-vertical-small;
+
+    @include respond(tab-port) {
+        grid-template-columns: 1fr;
+    }
+}
