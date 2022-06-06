@@ -558,6 +558,9 @@ body {
   .story__text {
     transform: skewX(12deg);
     backface-visibility: hidden; }
+    @media only screen and (max-width: 56.25em) {
+      .story__text {
+        transform: skewX(0); } }
   .story__caption {
     position: absolute;
     top: 50%;
